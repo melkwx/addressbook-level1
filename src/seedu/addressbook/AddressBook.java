@@ -228,8 +228,8 @@ public class AddressBook {
      */
 
     private static void showWelcomeMessage() {
-        showToUser(DIVIDER, DIVIDER, VERSION, MESSAGE_WELCOME, DIVIDER)
-        showToUser(DIVIDER, DIVIDER, MESSAGE_WELCOME_2, DIVIDER);
+        showToUser(DIVIDER, DIVIDER, VERSION, MESSAGE_WELCOME, DIVIDER);
+        showToUser(MESSAGE_WELCOME_2, DIVIDER, DIVIDER);
     }
 
     private static void showResultToUser(String result) {
